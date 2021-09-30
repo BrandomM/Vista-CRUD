@@ -1,5 +1,3 @@
-const url = "http://localhost:8080/api/vehiculo/registrar";
-
 async function registrar() {
   const inputNombre = document.getElementById("nombre");
   const nombre = inputNombre.value;
